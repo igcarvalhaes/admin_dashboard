@@ -23,86 +23,152 @@
             />
           </svg>
         </div>
-        <div>Dashbaord</div>
+        <div class="dashname-logo">Dashboard</div>
       </div>
-      <ul class="navigation">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Messages</li>
-        <li>History</li>
-        <li>Tasks</li>
-        <li>Communities</li>
-      </ul>
-      <ul class="navigation">
-        <li>Settings</li>
-        <li>Support</li>
-        <li>Privacy</li>
-      </ul>
+      <div class="nav-container">
+        <ul class="navigation">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>home</title>
+              <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg
+            >Home
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>card-account-details-outline</title>
+              <path
+                d="M22,3H2C0.91,3.04 0.04,3.91 0,5V19C0.04,20.09 0.91,20.96 2,21H22C23.09,20.96 23.96,20.09 24,19V5C23.96,3.91 23.09,3.04 22,3M22,19H2V5H22V19M14,17V15.75C14,14.09 10.66,13.25 9,13.25C7.34,13.25 4,14.09 4,15.75V17H14M9,7A2.5,2.5 0 0,0 6.5,9.5A2.5,2.5 0 0,0 9,12A2.5,2.5 0 0,0 11.5,9.5A2.5,2.5 0 0,0 9,7M14,7V8H20V7H14M14,9V10H20V9H14M14,11V12H18V11H14"
+              /></svg
+            >Profile
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>message-outline</title>
+              <path
+                d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M20 16H5.2L4 17.2V4H20V16Z"
+              /></svg
+            >Messages
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>clock-outline</title>
+              <path
+                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
+              /></svg
+            >History
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>note-multiple-outline</title>
+              <path
+                d="M3,6V22H21V24H3A2,2 0 0,1 1,22V6H3M16,9H21.5L16,3.5V9M7,2H17L23,8V18A2,2 0 0,1 21,20H7C5.89,20 5,19.1 5,18V4A2,2 0 0,1 7,2M7,4V18H21V11H14V4H7Z"
+              /></svg
+            >Tasks
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>account-group</title>
+              <path
+                d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z"
+              /></svg
+            >Communities
+          </li>
+        </ul>
+        <ul class="navigation">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>cog</title>
+              <path
+                d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z"
+              /></svg
+            >Settings
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>help-box</title>
+              <path
+                d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"
+              /></svg
+            >Support
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>shield-check</title>
+              <path
+                d="M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1Z"
+              /></svg
+            >Privacy
+          </li>
+        </ul>
+      </div>
     </div>
-    <header>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos,
-      voluptatibus. Debitis alias nesciunt modi doloribus id quibusdam minus,
-      recusandae, ipsum non ullam, sapiente illum voluptate libero accusantium
-      sequi perspiciatis similique corrupti repudiandae aliquam aut rerum
-      repellendus quia pariatur? Eaque dolorum blanditiis distinctio officiis
-      nesciunt eveniet nostrum consequuntur vero quisquam quam impedit, mollitia
-      alias vel iure et expedita odit magnam!
-    </header>
-    <main>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-      distinctio quidem aperiam, quasi, optio aut asperiores neque excepturi
-      accusamus fugit placeat minima ullam quis odio dolorum sunt est quae
-      voluptatibus, at officia et reiciendis eaque nihil? Aliquam quam
-      recusandae rerum repellendus ducimus mollitia id expedita quod? Doloremque
-      enim voluptatem est veniam sunt. Nihil voluptate laborum consequuntur sit
-      dolor vero voluptatem nisi eligendi quas, consequatur incidunt obcaecati.
-      Sit facilis delectus aspernatur, blanditiis architecto earum provident
-      quia facere necessitatibus assumenda nihil nam ipsa est voluptas
-      excepturi. Exercitationem, incidunt dicta reprehenderit placeat, ut dolore
-      iure non quo ab asperiores eveniet, assumenda culpa aut repellendus
-      laudantium. Iusto, praesentium molestias? Sequi tempora tempore, nostrum
-      eligendi voluptatem aperiam, cumque, consequatur similique eaque tenetur
-      accusantium nisi! Expedita qui quis officia quaerat et laboriosam
-      similique, nam repellat voluptatibus corporis distinctio, nihil voluptas
-      in assumenda quidem repellendus, hic omnis delectus perspiciatis ea ab
-      aspernatur. Cumque adipisci cupiditate exercitationem perferendis sapiente
-      velit quibusdam laborum illo officiis id corrupti, modi alias ea
-      repudiandae, nihil facere eum ut ex repellendus nobis consequuntur vel
-      maiores vero quae! Quisquam velit, delectus optio dolorum error placeat
-      unde asperiores consectetur ab dolore rem vero blanditiis? Distinctio ut
-      ea fugiat ipsam nam quos obcaecati. Molestiae, deleniti aperiam cum
-      blanditiis quia, commodi cumque sequi ipsa adipisci fugiat nobis, quam
-      esse soluta iure ab quod voluptatem architecto consectetur fuga saepe
-      inventore iusto facilis! Doloribus, similique accusamus! Sapiente totam
-      tenetur error animi aperiam nisi doloremque maxime commodi saepe
-      repudiandae impedit sint libero, minima autem voluptas, nesciunt, quasi
-      dignissimos eaque? Voluptatem rem dolorem laborum repudiandae accusantium
-      magnam consectetur sed error omnis minus explicabo unde molestiae
-      obcaecati voluptas doloremque, id, cumque aspernatur fugit animi mollitia
-      aliquid qui magni. Obcaecati rerum maiores nihil minus iusto nisi! Cum
-      consequatur sit ipsum velit aut molestias magnam totam nobis blanditiis,
-      facere debitis eos labore repudiandae accusantium commodi libero dolore
-      porro atque eius provident nesciunt? Maiores deserunt iste quas iusto
-      aperiam quaerat, rerum possimus quos. Corporis aspernatur assumenda minus
-      incidunt repellat, natus tempore libero optio, porro illum deserunt
-      provident autem nisi ullam, quos adipisci. Libero asperiores, culpa, ad
-      dolorum beatae delectus esse suscipit quidem repudiandae optio, sed autem
-      a. Deleniti molestiae dolores expedita, ad dolore optio dicta eligendi
-      ipsum velit provident repudiandae itaque? Maiores est officiis laboriosam
-      distinctio nostrum iure quod, autem ad placeat quibusdam obcaecati
-      expedita inventore perspiciatis delectus quasi pariatur nobis voluptatibus
-      vitae fugit minus incidunt unde! Iste, accusantium earum qui labore omnis
-      nulla minus minima, praesentium saepe quos, quae quisquam explicabo
-      mollitia delectus asperiores tempora! Deleniti amet alias veritatis dolore
-      vel dolor velit explicabo eum, necessitatibus enim, ab, quam earum!
-      Obcaecati accusantium aperiam laborum magni est, ea fugiat odit neque
-      blanditiis ad itaque sunt, eligendi nam aliquam tempora qui, aspernatur
-      expedita. Debitis sapiente repellendus assumenda illo esse autem harum
-      quod excepturi quas. Et consequatur asperiores aut fugiat, totam commodi
-      odit amet perferendis quo, sit labore optio incidunt magni, quae iusto
-      maxime culpa magnam ipsum hic error sint vel ducimus qui! Itaque, minus
-      blanditiis eum facere totam, inventore dolor numquam, ipsa labore ut fuga
-      possimus.
-    </main>
+    <div class="main-content-container">
+      <header>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos,
+        voluptatibus. Debitis alias nesciunt modi doloribus id quibusdam minus,
+        recusandae, ipsum non ullam, sapiente illum voluptate libero accusantium
+        sequi perspiciatis similique corrupti repudiandae aliquam aut rerum
+        repellendus quia pariatur? Eaque dolorum blanditiis distinctio officiis
+        nesciunt eveniet nostrum consequuntur vero quisquam quam impedit,
+        mollitia alias vel iure et expedita odit magnam!
+      </header>
+      <main>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+        distinctio quidem aperiam, quasi, optio aut asperiores neque excepturi
+        accusamus fugit placeat minima ullam quis odio dolorum sunt est quae
+        voluptatibus, at officia et reiciendis eaque nihil? Aliquam quam
+        recusandae rerum repellendus ducimus mollitia id expedita quod?
+        Doloremque enim voluptatem est veniam sunt. Nihil voluptate laborum
+        consequuntur sit dolor vero voluptatem nisi eligendi quas, consequatur
+        incidunt obcaecati. Sit facilis delectus aspernatur, blanditiis
+        architecto earum provident quia facere necessitatibus assumenda nihil
+        nam ipsa est voluptas excepturi. Exercitationem, incidunt dicta
+        reprehenderit placeat, ut dolore iure non quo ab asperiores eveniet,
+        assumenda culpa aut repellendus laudantium. Iusto, praesentium
+        molestias? Sequi tempora tempore, nostrum eligendi voluptatem aperiam,
+        cumque, consequatur similique eaque tenetur accusantium nisi! Expedita
+        qui quis officia quaerat et laboriosam similique, nam repellat
+        voluptatibus corporis distinctio, nihil voluptas in assumenda quidem
+        repellendus, hic omnis delectus perspiciatis ea ab aspernatur. Cumque
+        adipisci cupiditate exercitationem perferendis sapiente velit quibusdam
+        laborum illo officiis id corrupti, modi alias ea repudiandae, nihil
+        facere eum ut ex repellendus nobis consequuntur vel maiores vero quae!
+        Quisquam velit, delectus optio dolorum error placeat unde asperiores
+        consectetur ab dolore rem vero blanditiis? Distinctio ut ea fugiat ipsam
+        nam quos obcaecati. Molestiae, deleniti aperiam cum blanditiis quia,
+        commodi cumque sequi ipsa adipisci fugiat nobis, quam esse soluta iure
+        ab quod voluptatem architecto consectetur fuga saepe inventore iusto
+        facilis! Doloribus, similique accusamus! Sapiente totam tenetur error
+        animi aperiam nisi doloremque maxime commodi saepe repudiandae impedit
+        sint libero, minima autem voluptas, nesciunt, quasi dignissimos eaque?
+        Voluptatem rem dolorem laborum repudiandae accusantium magnam
+        consectetur sed error omnis minus explicabo unde molestiae obcaecati
+        voluptas doloremque, id, cumque aspernatur fugit animi mollitia aliquid
+        qui magni. Obcaecati rerum maiores nihil minus iusto nisi! Cum
+        consequatur sit ipsum velit aut molestias magnam totam nobis blanditiis,
+        facere debitis eos labore repudiandae accusantium commodi libero dolore
+        porro atque eius provident nesciunt? Maiores deserunt iste quas iusto
+        aperiam quaerat, rerum possimus quos. Corporis aspernatur assumenda
+        minus incidunt repellat, natus tempore libero optio, porro illum
+        deserunt provident autem nisi ullam, quos adipisci. Libero asperiores,
+        culpa, ad dolorum beatae delectus esse suscipit quidem repudiandae
+        optio, sed autem a. Deleniti molestiae dolores expedita, ad dolore optio
+        dicta eligendi ipsum velit provident repudiandae itaque? Maiores est
+        officiis laboriosam distinctio nostrum iure quod, autem ad placeat
+        quibusdam obcaecati expedita inventore perspiciatis delectus quasi
+        pariatur nobis voluptatibus vitae fugit minus incidunt unde! Iste,
+        accusantium earum qui labore omnis nulla minus minima, praesentium saepe
+        quos, quae quisquam explicabo mollitia delectus asperiores tempora!
+        Deleniti amet alias veritatis dolore vel dolor velit explicabo eum,
+        necessitatibus enim, ab, quam earum! Obcaecati accusantium aperiam
+        laborum magni est, ea fugiat odit neque blanditiis ad itaque sunt,
+        eligendi nam aliquam tempora qui, aspernatur expedita. Debitis sapiente
+        repellendus assumenda illo esse autem harum quod excepturi quas. Et
+        consequatur asperiores aut fugiat, totam commodi odit amet perferendis
+        quo, sit labore optio incidunt magni, quae iusto maxime culpa magnam
+        ipsum hic error sint vel ducimus qui! Itaque, minus blanditiis eum
+        facere totam, inventore dolor numquam, ipsa labore ut fuga possimus.
+      </main>
+    </div>
   </body>
 </html>
