@@ -213,3 +213,30 @@ input[type="search"] {
   background-color: #1992d4;
   line-height: 35px;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.card-wrap-container div,
+.announcements-trending-container div {
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  display: flex;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.card-wrap-container div {
+  margin-left: 20px;
+}
+
+.project-announcements-text div:first-child {
+  margin-left: 20px;
+}
+
+.project-announcements-text div:last-child {
+  margin-right: 235px;
+}
