@@ -222,18 +222,23 @@ main {
 .card-wrap-container {
   display: grid;
   grid-template-rows: 1fr 12fr;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.card-wrap-container .project-title {
+  padding-left: 60px;
 }
 
 .card-wrap-container .project-title,
-.announcements-trending-container div {
+.announcements-trending-container .announcements-text {
   font-size: 1.2rem;
   font-weight: bold;
   height: 50px;
-  display: flex;
-  align-items: end;
+  /* display: flex;
+  align-items: end; */
   margin-bottom: 10px;
-  border: 1px solid red;
+  line-height: 80px;
+  /* border: 1px solid red; */
 }
 
 .card-wrap-container div {
@@ -249,7 +254,7 @@ main {
 }
 
 .card-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-rows: 5fr;
   justify-items: center;
@@ -269,6 +274,7 @@ main {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .card-title {
@@ -294,4 +300,93 @@ main {
 
 .reaction-container svg:hover {
   cursor: pointer;
+  width: 26px;
+}
+
+.announcements-trending-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.announcements-wrap {
+  grid-row: 1/2;
+}
+
+.announcements-wrap .card-news,
+.trending-news {
+  height: 340px;
+  width: 280px;
+  border-radius: 2%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.announcements-wrap .card-news {
+  margin-top: 22px;
+}
+
+.card-news .notice-wrap {
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+
+.card-news .notice-wrap:first-child {
+  margin-top: 0;
+}
+
+.card-news .notice-wrap:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
+.card-news .title-news,
+.title-user-trending {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.card-news .card-news-text,
+.trending-news-text {
+  margin-top: 2px;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.trending-news {
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.trending-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 30px;
+}
+
+.notice-trending-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-user svg {
+  height: 50px;
+  fill: #1992d4;
+}
+
+.user-tag {
+  font-weight: bold;
+}
+
+.project-description {
+  color: gray;
+}
+
+.trending-news-text {
+  font-size: 0.9rem;
 }
