@@ -390,3 +390,17 @@ main {
 .trending-news-text {
   font-size: 0.9rem;
 }
+
+@media screen and (max-width: 1920px) {
+  .sidebar {
+    grid-template-rows: 80px 1fr 1fr;
+  }
+
+  .main-content-container {
+    grid-template-rows: 1fr 10fr;
+  }
+
+  .announcements-trending-container {
+    grid-template-rows: 1fr 2fr;
+  }
+}
